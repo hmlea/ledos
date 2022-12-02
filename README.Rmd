@@ -38,6 +38,7 @@ You can access the web app [here](https://hmlea.shinyapps.io/ledos/) or you can 
 In the future, I would like to:
 
 -   Allow the customization of more plot features
+-   Add isosurface visualizations
 -   Dynamically resize plot with window size
 -   Rework the download buttons
 -   Allow advanced options to create large data sets

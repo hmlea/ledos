@@ -51,6 +51,7 @@ using the following code:
 In the future, I would like to:
 
 -   Allow the customization of more plot features
+-   Add isosurface visualizations
 -   Dynamically resize plot with window size
 -   Rework the download buttons
 -   Allow advanced options to create large data sets
