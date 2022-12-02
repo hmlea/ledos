@@ -2,8 +2,8 @@ library(plotly)
 library(wavefunction)
 
 # monte carlo simulator, checks and takes points less than psi_lim
-# from Henrique Fernandes Lobo et al. [1]
-# psi_lim default value is taken from Tulley et al. [2]
+# from Henrique Fernandes Lobo et al.
+# psi_lim default value is taken from Tulley et al.
 monte_carlo = function(n, l, m, psi_lim=0.0026, r_lim=35, num_points=2048) {
   # init data vectors
   r_points = c()
@@ -115,7 +115,8 @@ plot_data = function(coords, pos_col="#d13010", neg_col="#2d709f") {
 }
 
 # simulates the data for the orbital - ready to plot
-sim_data = function(n, l, m, psi_lim, r_lim=25, num_points=128) {
+# psi_lim from Tully et al. - the maximum psi cutoff for the monte carlo sim
+sim_data = function(n, l, m, psi_lim=0.0026, r_lim=35, num_points=2048) {
   # progress bar - might be able to be done in the server file
   withProgress(message="Simulating", value=1, {
     # simulate the data

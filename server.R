@@ -7,11 +7,9 @@ shinyServer(function(input, output, session){
     l = as.numeric(input$l_num)
     m = as.numeric(input$m_num)
     points = as.numeric(input$num_points)
-    # set the maximum wavefunction to cut off for the monte carlo simulation
-    max_psi = 0.0026
     
     # calculate and plot the orbital
-    cart_coords = sim_data(n, l, m, max_psi, num_points=points, r_lim=35)
+    cart_coords = sim_data(n, l, m, num_points=points)
   })
   
   # creates a plotly of the orbital
