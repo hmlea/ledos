@@ -29,6 +29,10 @@ Leatherwood's Electron Density Orbital Simulator (**LEDOS**) creates pointillist
 
 **LEDOS** simulates orbital plots in real time using the quantum numbers n, l, and m. On the left-hand selection pane, you can choose quantum numbers that correspond to different orbitals. **LEDOS** will simulate and electron cloud based on the number of points selected and will create an interactive plot in the output pane. The data used to make the plot can be exported as a CSV or and image of the plot can be exported as a PNG.
 
+You can access the web app [here](https://hmlea.shinyapps.io/ledos/) or you can download and run it on your machine using the Shiny package using the following code:
+
+-   `shiny::runGitHub("hmlea/ledos")`
+
 ## To Do
 
 In the future, I would like to:

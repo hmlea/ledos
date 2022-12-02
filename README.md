@@ -40,11 +40,18 @@ create an interactive plot in the output pane. The data used to make the
 plot can be exported as a CSV or and image of the plot can be exported
 as a PNG.
 
+You can access the web app [here](https://hmlea.shinyapps.io/ledos/) or
+you can download and run it on your machine using the Shiny package
+using the following code:
+
+-   `shiny::runGitHub("hmlea/ledos")`
+
 ## To Do
 
 In the future, I would like to:
 
 -   Allow the customization of more plot features
+-   Dynamically resize plot with window size
 -   Rework the download buttons
 -   Allow advanced options to create large data sets
 -   Add support for more complex orbitals
