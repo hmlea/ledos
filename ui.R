@@ -8,8 +8,9 @@ plainDLButton = function(buttonID, buttonLabel="Download") {
 }
 
 ui = fluidPage(
-  titlePanel(span("Leatherwood's Electron Density Orbital Simulator",
-                  div(actionButton("about", "About"), style="float:right"))),
+  titlePanel(div(span("Leatherwood's Electron Density Orbital Simulator",
+                      div(actionButton("about", "About"), style="float:right;")),
+                      style="padding-bottom:0.8rem;")),
   
   sidebarPanel(
     h4("Quantum Numbers"),
