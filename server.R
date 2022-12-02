@@ -159,8 +159,10 @@ shinyServer(function(input, output, session){
                       <li>Tully <i>et al.</i> 2013, <a href='https://doi.org/10.1021/ed300393s'>Interactive Web-Based Pointillist Visualization of Hydrogenic Orbitals Using Jmol</a></li>
                       <li>Blanco <i>et al.</i> 1997, <a href='https://doi.org/10.1016/S0166-1280(97)00185-1'>Evaluation of the rotation matrices in the basis of real spherical harmonics</a></li>
                   </ul>"),
-                  footer=div(HTML("<p>Hayden Leatherwood 2022 - built in R with Shiny and Plotly</p>"),
-                             style="float:left"),
+                  footer=span(div(HTML("<p>Hayden Leatherwood 2022 - built in R with Shiny and Plotly</p>"),
+                                  style="float:left;"),
+                              div(HTML("<a href='https://github.com/hmlea/ledos'>Source</a>"),
+                                  style="float:right;")),
                   easyClose=T))
   })
 })
