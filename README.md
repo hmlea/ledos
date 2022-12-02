@@ -58,6 +58,7 @@ In the future, I would like to:
 -   Add support for more complex orbitals
 -   Improve the simulation progress bar
 -   Clean up and refactor general code
+-   Rewrite the Monte Carlo simulation in C++
 -   Enhance the site design
 -   Optimize the $\Psi$ calculation in the **wavefunction** package
 
