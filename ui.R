@@ -8,9 +8,13 @@ plainDLButton = function(buttonID, buttonLabel="Download") {
 }
 
 ui = fluidPage(
+  tags$head(tags$link(rel="shortcut icon",
+                      href=knitr::image_uri("orbital.ico"),
+                      type="image/x-icon")),
   titlePanel(div(span("Leatherwood's Electron Density Orbital Simulator",
                       div(actionButton("about", "About"), style="float:right;")),
-                      style="padding-bottom:0.8rem;")),
+                      style="padding-bottom:0.8rem;"),
+             windowTitle="LEDOS"),
   
   sidebarPanel(
     h4("Quantum Numbers"),
