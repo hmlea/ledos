@@ -22,6 +22,16 @@ there is a high probability of an electron existing based on the quantum
 numbers of the orbital. All these points are then plotted resulting in
 an electron density cloud that takes on the true shape of the orbital.
 
+Note that before I created the **wavefunction** package, I had
+implemented the calculations using only native R. However, the
+calculations were much too slow and it took several minutes to simulate
+thousands of points for these electron clouds. While it is not a
+complete package, the set of functions still work to calculate the
+hydrogen wave function accurately. The
+[**native-wavefunction**](https://github.com/hmlea/native-wavefunction)
+project is hosted on my GitHub and can even be used in place of the
+**wavefunction** package in **LEDOS**.
+
 **LEDOS** was greatly inspired by Alvin Q. Meng and his own project,
 [Evanescence](https://al2me6.github.io/evanescence)
 ([GitHub](https://github.com/al2me6/evanescence)). Further, Alvin
