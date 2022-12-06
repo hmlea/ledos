@@ -19,8 +19,9 @@ of the spherical harmonics in my
 [**wavefunction**](https://github.com/hmlea/wavefunction) package. A
 Monte Carlo simulation uses the wave function to choose points where
 there is a high probability of an electron existing based on the quantum
-numbers of the orbital. All these points are then plotted resulting in
-an electron density cloud that takes on the true shape of the orbital.
+numbers of the orbital. All these points are then plotted using
+[plotly](https://github.com/plotly/plotly.R) which results in an
+electron density cloud that takes on the true shape of the orbital.
 
 Note that before I created the **wavefunction** package, I had
 implemented the calculations using only native R. However, the
@@ -86,3 +87,6 @@ In the future, I would like to:
 5.  Blanco *et al.* 1997, [Evaluation of the rotation matrices in the
     basis of real spherical
     harmonics](https://doi.org/10.1016/S0166-1280(97)00185-1)
+6.  Sievert 2020, [Interactive Web-Based Data Visualization with R,
+    plotly, and shiny](https://plotly-r.com/)
+    ([GitHub](https://github.com/plotly/plotly.R))
