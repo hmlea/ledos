@@ -124,22 +124,22 @@ shinyServer(function(input, output, session){
       modalDialog(title = "About",
                   # h4("About"),
                   HTML("<h5>Help</h5>
-                  <p style = 'margin-bottom: 10px;'>Leatherwood's Electron
+                  <p style = 'margin-bottom: 10px;'>Leatherwood's Electron 
                   Density Orbital Simulator (<b>LEDOS</b>) allows the 
-                  visualization of hydrogenic orbitals using the Schrödinger
-                  wave equation for the hydrogen atom using a Monte Carlo
-                  simulation. Using a Monte Carlo simulation allows simulate the 
-                  position of thousands of electrons around a hydrogen nucleus.
-                  This lets us visualize the general shape of the orbital in a 
-                  pointillist manner. Each \"point\" represents the position of 
-                  an electron and the darker it is, the higher probability it 
-                  has being found there in an atom.
-                  <p style = 'margin-bottom: 20px;'>The controls on the left can 
-                  be used to visualize orbitals with different quantum numbers. 
-                  The quality can be changed by increasing or decreasing the 
-                  number of points used to visualize the orbital. The data can 
-                  then be exported as a CSV file or an image of the plot can be 
-                  downloaded.</p>
+                  visualization of hydrogenic orbitals using the Schrödinger 
+                  wave equation for the hydrogen atom using a Monte Carlo 
+                  simulation. Using a Monte Carlo method allows us to simulate 
+                  the position of thousands of electrons around a hydrogen 
+                  nucleus. This lets us visualize the general shape of the 
+                  orbital in a pointillist manner. Each \"point\" represents 
+                  the position of an electron and the darker it is, the higher 
+                  probability it has being found there in an atom.
+                  <p style = 'margin-bottom: 20px;'>The controls on the left 
+                  can be used to visualize orbitals with different quantum 
+                  numbers. The quality can be changed by increasing or 
+                  decreasing the number of points used to visualize the 
+                  orbital. The data can then be exported as a CSV file or an 
+                  image of the plot can be downloaded.</p>
                   <h5>Acknowledgements</h5>
                   <p style = 'margin-bottom: 20px;'>I would like to express my 
                   greatest appreciation to Alvin Q. Meng for sharing his 
