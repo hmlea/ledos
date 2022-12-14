@@ -33,6 +33,8 @@ hydrogen wave function accurately. The
 project is hosted on my GitHub and can even be used in place of the
 **wavefunction** package in **LEDOS**.
 
+## Acknowledgements
+
 **LEDOS** was greatly inspired by Alvin Q. Meng and his own project,
 [Evanescence](https://al2me6.github.io/evanescence)
 ([GitHub](https://github.com/al2me6/evanescence)). Further, Alvin

@@ -25,6 +25,8 @@ Leatherwood's Electron Density Orbital Simulator (**LEDOS**) creates pointillist
 
 Note that before I created the **wavefunction** package, I had implemented the calculations using only native R. However, the calculations were much too slow and it took several minutes to simulate thousands of points for these electron clouds. While it is not a complete package, the set of functions still work to calculate the hydrogen wave function accurately. The [**native-wavefunction**](https://github.com/hmlea/native-wavefunction) project is hosted on my GitHub and can even be used in place of the **wavefunction** package in **LEDOS**.
 
+## Acknowledgements
+
 **LEDOS** was greatly inspired by Alvin Q. Meng and his own project, [Evanescence](https://al2me6.github.io/evanescence) ([GitHub](https://github.com/al2me6/evanescence)). Further, Alvin enthusiastically shared insight into his project and answered many of my technical questions. I wouldn't have been able to create **LEDOS** without his help; please check out his extraordinary project at the link above.
 
 ## Usage
