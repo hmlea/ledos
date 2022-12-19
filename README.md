@@ -60,7 +60,7 @@ You can access the web app [here](https://hmlea.shinyapps.io/ledos/) or
 you can download and run it on your machine using the Shiny package
 using the following code:
 
--   `shiny::runGitHub("hmlea/ledos")`
+    `shiny::runGitHub("hmlea/ledos")`
 
 ## To Do
 
